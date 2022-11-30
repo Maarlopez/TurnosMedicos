@@ -7,8 +7,8 @@ namespace Tienda_virtual
     /// </summary>
     public class Menu
     {
-        ListaPacientes listapacientes = new ListaPacientes(); /* Creo una nueva instancia del tipo ListaPacientes */
-        ListaMedicos listamedicos = new ListaMedicos();
+        ListaPacientes[] listapacientes;
+        ListaMedicos[] listamedicos;
         public Menu() /* Constructor por defecto */
         {
         }
