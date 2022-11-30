@@ -84,7 +84,7 @@ namespace Tienda_virtual
                 {
 
                     case 1:
-                        listapacientes.Agregar();
+                        listapacientes.Imprimir();
                         break;
                     case 2:
                         listapacientes.Eliminar(); // hacerla
