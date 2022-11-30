@@ -4,9 +4,9 @@ using System.Collections;
 namespace TurnosMedicos
 {
 	/// <summary>
-	/// Description of ListaPacientes.
+	/// Description of ListaMedicos.
 	/// </summary>
-	public class ListaPacientes
+	public class ListaMedicos
 	{
 		ArrayList Medicos=new ArrayList(); /* Creo una nueva instancia de tipo Arraylist para almacenar
 		los distintos medicos */
@@ -26,7 +26,7 @@ namespace TurnosMedicos
 			
 			Medico m= new Medico(nombre,dni); //instancio un nuevo medico
 			
-			Medico.Add(m); /* Agrego medico al Arraylist */
+			Medicos.Add(m); /* Agrego medico al Arraylist */
 
 			}
 			
